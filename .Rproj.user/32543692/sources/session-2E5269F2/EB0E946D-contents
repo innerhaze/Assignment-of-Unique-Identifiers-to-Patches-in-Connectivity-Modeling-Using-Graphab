@@ -1,4 +1,3 @@
-
 ---
 title: "Assignment of Unique Identifiers to Patches in Connectivity Modeling Using Graphab"
 author: "Sebastián Sánchez Cuartas"
@@ -7,17 +6,21 @@ output:
   html_document:
     toc: true
     toc_depth: 2
-    theme: united
+    toc_float:
+      collapsed: false
+      smooth_scroll: true
+      position: "left"
+    theme: flatly
     highlight: tango
-    css: styles.css
 ---
+
+# **Introduction**
 
 The following code serves a specific purpose in connectivity modeling using Graphab. When Graphab loads a raster containing patches, it automatically enumerates these patches from 1 to the total number of patches, following a west-to-east and north-to-south pattern. This enumeration determines the identity of the indices between patches, known as Site ID. In this case, the Site ID corresponds to a particular species (see Figure 1).
 
 The script provides a solution to maintain the traceability of patches since Graphab loses the original species identity during enumeration. By assigning a unique numerical identifier to each patch, the script facilitates the retrieval of the original species identity in the final connectivity report (Figure 2). This is particularly useful when there are numerous patches each containing only one individual.
 
 The code uses a CSV file as input, which should include the species names in the first column, and the longitude and latitude coordinates in the subsequent columns (Figure 3).
-
 
 ```{r eval=FALSE, include=TRUE}
 # Load necessary libraries

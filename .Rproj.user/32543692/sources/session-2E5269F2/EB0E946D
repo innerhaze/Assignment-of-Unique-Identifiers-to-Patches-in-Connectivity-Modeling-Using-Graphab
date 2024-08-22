@@ -3,7 +3,7 @@
     "path": "~/GitHub/Order_graphab/Assignment-of-Unique-Identifiers-to-Patches-in-Connectivity-Modeling-Using-Graphab/index.Rmd",
     "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "543454879",
+    "hash": "2515079169",
     "contents": "",
     "dirty": false,
     "created": 1724228426850.0,
@@ -12,15 +12,20 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "86,272",
-        "scrollLine": "68"
+        "cursorPosition": "16,0",
+        "scrollLine": "9",
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "378:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1724229377,
+    "lastKnownWriteTime": 1724299491,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1724229377391,
+    "last_content_update": 1724299492002,
     "read_only": false,
     "read_only_alternatives": []
 }
