@@ -13,7 +13,7 @@ output:
     theme: flatly
     highlight: tango
 ---
-
+Hola
 # **Introduction**
 
 The following code serves a specific purpose in connectivity modeling using Graphab. When Graphab loads a raster containing patches, it automatically enumerates these patches from 1 to the total number of patches, following a west-to-east and north-to-south pattern. This enumeration determines the identity of the indices between patches, known as Site ID. In this case, the Site ID corresponds to a particular species (see Figure 1).
